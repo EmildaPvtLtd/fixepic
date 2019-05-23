@@ -576,7 +576,7 @@ line-height: 1;
 #two1 .two1sub
 { 
 
-  letter-spacing: 0px;
+  letter-spacing: 5px;
   margin: 0;
   font-weight: 700;
   font-size: 95px;
@@ -2255,5 +2255,18 @@ ul:hover
 .single .slick-next
 {
 right: 10%;
+}
+}
+.takeit
+{
+ margin-top: 55px;
+ 
+
+}
+@media (min-width: 1920px)
+{
+  .takeit
+{
+ margin-top: 225px;
 }
 }
