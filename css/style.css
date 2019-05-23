@@ -148,7 +148,6 @@ color: black;
 
 
 
-
 @media (min-width: 992px) {
     .slider,
     .slide {
@@ -180,6 +179,12 @@ color: black;
             animation-duration: 3s;
     transition: all 1s ease;
     background-position: center;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+
   }
   .slide .slide__content {
     width: 40%;
@@ -1971,6 +1976,20 @@ margin-top: 150px;
   {
     top: 220px;
   }
+  .slide .slide__img {
+    min-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .innerimg  
+  {
+    height: 850px;
+  }
+  .single .slick-next
+  {
+    right: 9%;
+    top: 35%;
+  }
 }
 
 @media screen and (max-width: 900px)
@@ -1979,6 +1998,7 @@ margin-top: 150px;
 {
   display: none;
 }
+
 }
 
 @media screen and (max-width: 840px)
